@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+<bean id="ques" class="com.shatakshi.spring.Question">  
+<constructor-arg value="1"></constructor-arg>  
+<constructor-arg value="What is the shape of peninsuala?"></constructor-arg>  
+<constructor-arg>  
+<list>  
+<value>Hexagonal</value>  
+<value>Triangular</value>  
+<value>Semi-circle</value>  
+</list>  
+</constructor-arg>  
+</bean>  
+
+<bean id="ques1" class="com.shatakshi.spring.Question1">  
+<constructor-arg value="2"></constructor-arg>  
+<constructor-arg value="What are attributes of a country?"></constructor-arg>  
+<constructor-arg>  
+<map>  
+<entry key="1"  value="Country has a name and capital."></entry>  
+<entry key="2" value="It has a ruling body"></entry>  
+<entry key="3" value="It has a president or prime minister as its head"></entry>  
+</map>  
+</constructor-arg>  
+</bean>
+<bean id="ques2" class="com.shatakshi.spring.Question2">  
+<constructor-arg value="3"></constructor-arg>  
+<constructor-arg value="Name your siblings?"></constructor-arg>  
+<constructor-arg>  
+<set>  
+<value>Vivan</value>  
+<value>Ashu</value>  
+<value>Hari</value>  
+</set>  
+</constructor-arg>  
+</bean>   
+</beans>
