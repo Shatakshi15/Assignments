@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Question3</title>
+<style>
+table.one,tr.one{
+ border-style: solid ;
+  border-width: 3px;
+border-color:LightGray;
+transparent: 
+}
+table.two
+{
+border:None;
+}
+</style>
+</head>
+<body>
+<table class="one">
+<tr class="one">
+<td>100</td>
+<td>200</td>
+<td>300</td>
+</tr>
+<tr class="one">
+<td>400</td>
+<td>500</td>
+<td>600</td>
+</tr>
+</table>
+<table class="two">
+<tr class="two">
+<td>100</td>
+<td>200</td>
+<td>300</td>
+</tr>
+<tr class="two">
+<td>400</td>
+<td>500</td>
+<td>600</td>
+</tr>
+</table>
+</body>
+</html>

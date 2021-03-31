@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.center{
+border-style:2px solid double black;
+text-align:center;
+}
+</style>
+</head>
+<body>
+<form>
+<label>Username: </label>
+<input class="center" type="text" id="uname"><br/><br/>
+<label>Password: </label>
+<input  class="center" type="text" id="pname" value="**********" ><br/>
+</form>
+</body>
+</html>
