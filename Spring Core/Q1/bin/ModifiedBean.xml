@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+        <bean id="e" class="com.shatakshi.spring.ModifiedAddress">  
+<constructor-arg value="Park Street"></constructor-arg>  
+<constructor-arg value="Basti"></constructor-arg>  
+
+<constructor-arg value="U.P."></constructor-arg>  
+
+<constructor-arg value="272001" type="int"></constructor-arg> 
+
+<constructor-arg value="India"></constructor-arg>   
+</bean> 
+        
+        <bean id="obj" class="com.shatakshi.spring.ModifiedCustomer"> 
+        <constructor-arg value="1" type="int"></constructor-arg> 
+        <constructor-arg value="Shatakshi Mishra"></constructor-arg> 
+        <constructor-arg value="9877352913" type="long"></constructor-arg>
+       <constructor-arg>  
+<ref bean="e"/>  
+</constructor-arg>
+        
+        
+        </bean>
+        </beans>  
