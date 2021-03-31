@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+<bean id="address1" class="com.shatakshi.spring.Address">  
+<property name="street" value="Park street"></property>  
+<property name="city" value="Basti"></property>  
+<property name="state" value="UP"></property>  
+<property name="country" value="India"></property> 
+<property name="zip" value="272001"></property>   
+</bean>  
+  
+<bean id="obj" class="com.shatakshi.spring.Customer">  
+<property name="CustomerId" value="1"></property>  
+<property name="CustomerName" value="Shatakshi Mishra"></property> 
+<property name="CustomerContact" value="9877352913"></property>   
+<property name="CustomerAddress" ref="address1"></property>  
+</bean>  
+  
+</beans>  
